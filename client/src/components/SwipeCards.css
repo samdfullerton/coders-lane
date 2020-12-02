@@ -10,12 +10,19 @@
 	background-size: cover;
 	background-position: center;
 }
+.card{
+	position: center;
+}
 .tinderCards__cardContainer {
 	display: flex;
 	justify-content: center;
 	margin-top: 10vh;
 }
 .swipe {
+	position: absolute;	
+}
+
+.cardContent {
 	position: absolute;
 	width: 100%;
 	height: 100%;
