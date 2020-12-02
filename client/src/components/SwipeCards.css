@@ -1,5 +1,5 @@
 .card {
-	position: relative;
+	position: center;
 	background-color: greenyellow;
 	width: 600px;
 	padding: 20px;
@@ -10,9 +10,7 @@
 	background-size: cover;
 	background-position: center;
 }
-.card{
-	position: center;
-}
+
 .tinderCards__cardContainer {
 	display: flex;
 	justify-content: center;
