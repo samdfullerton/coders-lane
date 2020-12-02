@@ -1,0 +1,19 @@
+.header{
+    display:flex;
+align-items: center;
+justify-content: space-between;
+z-index: 100;
+border-bottom: 1px solid white;
+object-fit: contain;
+
+
+
+}
+
+.header__icon{
+
+
+    height: 40 px;
+    padding: 20px;
+
+}
