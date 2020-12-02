@@ -7,11 +7,11 @@ export default function SwipeCards() {
 
         // dummy data for tests
         {
-            name:"kaney",
+            name:"Kaney",
             url:"https://thesource.com/wp-content/uploads/2018/08/Kanye-West.jpg"
         },
         {
-            name:"sparta",
+            name:"Sparta",
             url:"https://urbanislandz.com/wp-content/uploads/2018/05/Tommy-Lee-Sparta-2.jpg"
         }
     ]);
