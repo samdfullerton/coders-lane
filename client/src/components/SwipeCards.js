@@ -26,7 +26,7 @@ export default function SwipeCards() {
       return (
         <div className= "card">
             <div className="tinderCards__cardContainer">
-{/* this is whole tinder card  function */}
+{/* this is whole Join() card  function */}
             {people.map((person) =>(
         <TinderCard 
         className="swipe"
