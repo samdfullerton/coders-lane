@@ -1,20 +1,25 @@
-import React, { useState }from "react";
+import React, { useState, useEffect }from "react";
 import TinderCard from "react-tinder-card";
-import './SwipeCards.css'
+import './SwipeCards.css';
+import API from "../utils/api"
 
 export default function SwipeCards() {
-    const [people, setPeople]=useState([
+    const [people, setPeople]=useState([]);
 
         // dummy data for tests
-        {
-            name:"Kaney",
-            url:"https://thesource.com/wp-content/uploads/2018/08/Kanye-West.jpg"
-        },
-        {
-            name:"Sparta",
-            url:"https://urbanislandz.com/wp-content/uploads/2018/05/Tommy-Lee-Sparta-2.jpg"
-        }
-    ]);
+        // {
+        //     name:"Kaney",
+        //     url:"https://thesource.com/wp-content/uploads/2018/08/Kanye-West.jpg",
+        //     language: []
+        // },
+        // {
+        //     name:"Sparta",
+        //     url:"https://urbanislandz.com/wp-content/uploads/2018/05/Tommy-Lee-Sparta-2.jpg"
+        // }
+ useEffect(() => {
+API.getPeopleList()
+.then(response => setPeople(response.data))
+ },[])
     
     const swiped = (direction) => {
         console.log('You swiped: ' + direction)
