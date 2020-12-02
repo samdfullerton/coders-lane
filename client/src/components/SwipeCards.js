@@ -7,11 +7,11 @@ export default function SwipeCards() {
 
         // dummy data for tests
         {
-            name:"kaney",
+            name:"Kaney",
             url:"https://thesource.com/wp-content/uploads/2018/08/Kanye-West.jpg"
         },
         {
-            name:"sparta",
+            name:"Sparta",
             url:"https://urbanislandz.com/wp-content/uploads/2018/05/Tommy-Lee-Sparta-2.jpg"
         }
     ]);
@@ -26,7 +26,7 @@ export default function SwipeCards() {
       return (
         <div className= "card">
             <div className="tinderCards__cardContainer">
-{/* this is whole tinder card  function */}
+{/* this is whole Join() card  function */}
             {people.map((person) =>(
         <TinderCard 
         className="swipe"
