@@ -26,9 +26,9 @@
 	height: 100%;
 }
 
-.h3{
+.card h3{
 position: absolute;
 bottom: 0;
 margin:10 px;
-color: rgb(128, 0, 6);
+color: rgb(252, 0, 13);
 }
