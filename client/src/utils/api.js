@@ -1,11 +1,11 @@
 import axios from "axios";
 
 export default {
-  // Gets all books
+  // Gets all people/users
   getPeopleList: function() {
     return axios.get("/api/peoplelist");
   }
 };
 
 
-//ADD a post
+//ADD a axios.post
