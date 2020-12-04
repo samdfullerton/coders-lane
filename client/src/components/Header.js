@@ -14,7 +14,7 @@ export default function Header() {
 			</IconButton>
 
 			<img
-				className="header__logo"
+				className="header-logo"
 				src="https://perrit.eu/wp-content/uploads/2015/10/JOIN-logo.png"
 				alt=""
 				
